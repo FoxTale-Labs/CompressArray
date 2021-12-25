@@ -1,8 +1,8 @@
 {
-  "name": "ArrayCompression",
+  "name": "arraycompressor",
   "version": "1.0.0",
   "description": "Compress any Array with ez!",
-  "main": "ArrayCompression.js",
+  "main": "ArrayCompressor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

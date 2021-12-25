@@ -1,8 +1,8 @@
-# ArrayCompression
-Install with: `npm i ArrayCompression`<br>
+# ArrayCompressor
+Install with: `npm i arraycompressor`<br>
 With this package you can easily compress any Object at any Size!<br>
 ```
-  const arrayCompress = require("ArrayCompression");
+  const arrayCompress = require("arraycompressor");
   const compressed = arrayCompress.compress({
     test: "Hello",
     whatsUp: true,
