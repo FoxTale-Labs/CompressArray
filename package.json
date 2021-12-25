@@ -1,14 +1,14 @@
 {
-  "name": "array_compressor",
+  "name": "ArrayCompression",
   "version": "1.0.0",
-  "description": "",
+  "description": "Compress any Array with ez!",
   "main": "ArrayCompression.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["Array", "Object", "JavaScript", "Compression", "Decompression"],
+  "author": "EiskalterFreund",
+  "license": "MIT",
   "dependencies": {
     "lz-string": "^1.4.4"
   }
