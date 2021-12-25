@@ -125,4 +125,4 @@ console.log(decompressArray(compressArray({
     test3: true,
     test4: null,
 })));
-module.exports = { compressArray, decompressArray };
+module.exports = { compress: compressArray, decompress: decompressArray };
