@@ -1,5 +1,5 @@
 {
-  "name": "arraycompressor",
+  "name": "@eiskalterfreund/arraycompressor",
   "version": "1.0.0",
   "description": "Compress any Array with ez!",
   "main": "ArrayCompressor.js",
