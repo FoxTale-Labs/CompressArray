@@ -1,0 +1,15 @@
+{
+  "name": "array_compressor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ArrayCompression.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lz-string": "^1.4.4"
+  }
+}
