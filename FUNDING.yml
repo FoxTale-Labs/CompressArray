@@ -2,4 +2,8 @@
 # filename: FUNDING.YML
 
 custom: ["https://paypal.me/PureNodes"]
+<<<<<<< HEAD
 github: EiskalterFreund
+=======
+github: EiskalterFreund
+>>>>>>> 1430e0f255903f242255a3d0625c52909ca546ed
