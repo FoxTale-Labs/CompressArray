@@ -1,4 +1,4 @@
-# Array Compressor
+# Compress Array
 Install with: `npm i compressarray`<br>
 With this package you can easily compress any Object at any Size!<br>
 ```
