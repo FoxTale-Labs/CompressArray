@@ -119,10 +119,4 @@ function restoreTypes(arr) {
     return newArr;
 }
 
-console.log(decompressArray(compressArray({
-    test1: "Test",
-    test2: 1,
-    test3: true,
-    test4: null,
-})));
 module.exports = { compress: compressArray, decompress: decompressArray };
