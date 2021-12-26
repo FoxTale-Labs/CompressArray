@@ -31,12 +31,12 @@ function compressArray(arr) {
 
         if (JSON.stringify(arr)[0] == "{") {
             const stringedArr = compress.arrayDecons(arr);
-            const compressArr = lzString.compress(stringedArr)
+            const compressArr = lzString.compressToUint8Array(stringedArr)
             const result = compressArr;
             return result;
         }
         const stringedArr = compress.arrayDeconsList(arr, true);
-        const compressArr = lzString.compress(stringedArr)
+        const compressArr = lzString.compressToUint8Array(stringedArr)
         const result = compressArr;
         return result;
     } catch (err) {
@@ -51,7 +51,7 @@ function decompressArray(strarr) {
         if (!strarr) return null;
         if (strarr == "") return null;
 
-        const decompressArr = lzString.decompress(strarr);
+        const decompressArr = lzString.decompressFromUint8Array(strarr);
         if (decompressArr[0] == "L") {
             const builtArr = decompress.parseStringArrList(decompressArr);
             const result = builtArr;
