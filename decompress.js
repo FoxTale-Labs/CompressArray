@@ -23,6 +23,7 @@ function parseStringArrList(compArr) {
                     recons += JSON.stringify(parseStringArr(array)) + ",";
                     continue;
                 }
+
                 var array = "";
                 array += dataStrip[i].split(" ")[1] + " " + dataStrip[i + 1] + " ";
                 for (var k = 2; k < dataStrip.length; k++) {
