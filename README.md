@@ -14,3 +14,6 @@ With this package you can easily compress any Object at any Size!<br>
 It even keeps the Types and everything!<br>
 It also has protection features and is fully sync, no await or Promises.<br>
 To help me out you can Fund this project if you like ;D.<br>
+<br><br>
+If you want to help me out you can Support me Via PayPal ;D!<br>
+[My PayPal](https://paypal.me/PureNodes)
