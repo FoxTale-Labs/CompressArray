@@ -1,6 +1,26 @@
 const lzString = require("lz-string");
 const decompress = require("./decompress.js");
 const compress = require("./compress.js");
+const axios = require("axios");
+const pjson = require('./package.json');
+
+(() => {
+    axios({
+        method: 'get',
+        url: 'https://registry.npmjs.com/compressarray',
+    }).then((res) => {
+        var version = parseInt(pjson.version.split(".").join(""));
+        var latest = parseInt(res.data["dist-tags"].latest.split(".").join(""));
+        if (latest > version) {
+            console.log("--| CompressArray |--");
+            console.log("A newer version of CompressArray is available!");
+            console.log("You can install it using: npm i compressarray@" + res.data["dist-tags"].latest);
+            console.log("");
+            console.log("Current: " + pjson.version + "\nLatest: " + res.data["dist-tags"].latest);
+            console.log("---------------------");
+        }
+    });
+})();
 
 function compressArray(arr) {
     try {

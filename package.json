@@ -1,19 +1,26 @@
 {
   "name": "compressarray",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Compress any Array with ez!",
   "main": "compressarray.js",
   "homepage": "https://github.com/EiskalterFreund/CompressArray#readme",
-  "url" : "https://github.com/EiskalterFreund/CompressArray/issues",
-  "email" : "support@purenodes.net",
+  "url": "https://github.com/EiskalterFreund/CompressArray/issues",
+  "email": "support@purenodes.net",
   "funding": "https://paypal.me/PureNodes",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["Array", "Object", "JavaScript", "Compression", "Decompression"],
+  "keywords": [
+    "Array",
+    "Object",
+    "JavaScript",
+    "Compression",
+    "Decompression"
+  ],
   "author": "EiskalterFreund",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.24.0",
     "lz-string": "^1.4.4"
   },
   "repository": {

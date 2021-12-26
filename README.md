@@ -20,6 +20,7 @@ To help me out you can Fund this project if you like ;D.<br>
 - Added support for nested List Arrays
 - Added support for nesting an List Array inside an Array
 - Added support for nesting an Array inside an List Array
+- Added an Version Checker
 
 <br><br>
 If you want to help me out you can Support me Via PayPal ;D!<br>
