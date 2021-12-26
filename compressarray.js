@@ -6,7 +6,6 @@ function compressArray(arr) {
     try {
         if (arr != null && arr != "") {
             if (JSON.stringify(arr)[0] == "{") {
-                console.log("twes")
                 const stringedArr = compress.arrayDecons(arr);
                 const compressArr = lzString.compress(stringedArr)
                 const result = compressArr;
